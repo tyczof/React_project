@@ -8,8 +8,12 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-manrope: var(--font-manrope);
+  --font-cormornat-gar: var(--font-cormornat-gar);
+  --color-struzka: #E7C8B6;
+  --color-video-filter: #35290F4D;
+  --color-bedge-20: #DFD9CD;
+  --color-bedge-60: #918A7D;
 }
 
 @media (prefers-color-scheme: dark) {
