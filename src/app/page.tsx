@@ -1,6 +1,36 @@
 import Navbar from "@/components/NavBar/Navbar";
 import HeroSection from "@/components/Hero/HeroSection";
 import HeroLocation from "@/components/Hero/HeroLocation";
+import { Footer, FooterProps } from "@/components/footer";
+
+const footerData: FooterProps = {
+  address: {
+    place: "Strużka Kaszuby",
+    street: "Chojnicka 2",
+    postalCode: "89-606",
+    city: "Małe Swornegacie",
+    country: "Polska"
+  },
+  contact: {
+    email: "rezerwacje@struzka.pl",
+    telephone: "+48 271 842 999"
+  },
+  companyName: {
+    mainLine: "STRUŻKA",
+    secondLine: "KASZUBY"
+  },
+  links: [
+    {
+      name: "Polityka prywatności",
+      linkTo: "#" // zamień na rzeczywisty link, jeśli go masz
+    },
+    {
+      name: "Regulamin serwisu",
+      linkTo: "#" // zamień na rzeczywisty link, jeśli go masz
+    }
+  ]
+};
+
 
 export default function Home() {
   return (
@@ -27,6 +57,7 @@ export default function Home() {
       <div className="text-black"><p>ssssssssssssss</p></div>
       <div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div><div className="text-black"><p>ssssssssssssss</p></div>
       <div className="text-black"><p>ssssssssssssss</p></div>
+      <Footer {...footerData}/>
     </main>
   );
 }
