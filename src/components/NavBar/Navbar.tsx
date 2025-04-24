@@ -4,7 +4,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <header className="absolute top-0 left-0 w-full px-24 py-1 md:py-2 xl:py-6 z-20 border-b-1 border-b-white/50">
+    <header className="fixed text-white top-0 left-0 w-full px-24 py-1 md:py-2 xl:py-6 z-20 border-b-1 border-b-white/50 bg-bedge-60/40">
       <div className="grid grid-cols-12 gap-[20px] items-center">
         {/* NavLinks – kolumny 1-3 */}
         <div className="col-span-3">
