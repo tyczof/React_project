@@ -10,10 +10,12 @@
   --color-foreground: var(--foreground);
   --font-manrope: var(--font-manrope);
   --font-cormornat-gar: var(--font-cormornat-gar);
-  --color-struzka: #E7C8B6;
-  --color-video-filter: #35290F4D;
-  --color-bedge-20: #DFD9CD;
-  --color-bedge-60: #918A7D;
+  --color-struzka: #e7c8b6;
+  --color-video-filter: #35290f4d;
+  --color-bedge-20: #dfd9cd;
+  --color-bedge-40: #bfb7a7;
+  --color-bedge-60: #918a7d;
+  --color-bedge-80: #746b60;
 }
 
 @media (prefers-color-scheme: dark) {
